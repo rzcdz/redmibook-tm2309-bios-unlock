@@ -11,3 +11,6 @@
 # 文档：统一 LF
 *.md text eol=lf
 LICENSE text eol=lf
+
+# 打包产物
+*.zip binary
