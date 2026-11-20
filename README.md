@@ -34,7 +34,9 @@
 - **电源菜单（Power）** —— 原本完全隐藏，含 11 项唤醒设置
 - **Advanced 菜单** —— 原本无入口，含 `PCH-IO Configuration` 等
 - `PCH-IO Configuration` → **`State After G3`** —— 通电自动开机的开关
-![Uploading IMG_20261120_211836.jpg…]()
+
+<img width="1913" height="1521" alt="image" src="https://github.com/user-attachments/assets/06ffec4f-660d-44b9-97ef-2ee007cb1acc" />
+
 
 
 **典型用途：**
