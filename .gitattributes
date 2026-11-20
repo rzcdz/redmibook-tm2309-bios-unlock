@@ -1,0 +1,10 @@
+# 二进制文件不要做行尾转换
+*.efi binary
+*.EFI binary
+
+# 脚本与配置保持 CRLF，避免 UEFI Shell 解析问题
+*.nsh text eol=crlf
+*.cfg text eol=crlf
+
+# 文档
+*.md text eol=lf
