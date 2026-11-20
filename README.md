@@ -35,7 +35,7 @@
 - **Advanced 菜单** —— 原本无入口，含 `PCH-IO Configuration` 等
 - `PCH-IO Configuration` → **`State After G3`** —— 通电自动开机的开关
 
-<img width="1913" height="1521" alt="image" src="https://github.com/user-attachments/assets/06ffec4f-660d-44b9-97ef-2ee007cb1acc" />
+<img width="1609" height="1279" alt="mmexport1795186258091" src="https://github.com/user-attachments/assets/ef27e446-2e43-4d91-a856-c4d341919cab" />
 
 
 
