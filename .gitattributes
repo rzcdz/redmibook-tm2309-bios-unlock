@@ -1,10 +1,13 @@
-# 二进制文件不要做行尾转换
+# 二进制文件：不参与任何文本处理
 *.efi binary
 *.EFI binary
 
-# 脚本与配置保持 CRLF，避免 UEFI Shell 解析问题
-*.nsh text eol=crlf
-*.cfg text eol=crlf
+# UEFI Shell 脚本与 SREP 配置：保持原始 CRLF 行尾
+# 使用 -text 禁用行尾转换，确保仓库与下载的 zip 内容
+# 和实测通过的 U 盘文件完全一致（UEFI Shell 对行尾较敏感）
+*.nsh -text
+*.cfg -text
 
-# 文档
+# 文档：统一 LF
 *.md text eol=lf
+LICENSE text eol=lf
